@@ -659,7 +659,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const playBondMusic = () => {
         if (!bondAudio) {
-            bondAudio = new Audio('assets/james_bond.mp3');
+            bondAudio = new Audio('/assets/james_bond.mp3');
         }
         
         // Clear any existing timeout
